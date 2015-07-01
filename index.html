@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>计算机学院</title>
+ <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+ <script type="text/javascript" src="js/bootstrap.min.js"></script>
+ <link rel="stylesheet" type="text/css" href="css/index.css"/>
+ <link href="FontAwesome/css/font-awesome.css" rel="stylesheet" type="text/css" />
+ <script type="text/javascript">
+
+ $(document).ready(function(){
+
+
+    for(var i=1;i<=3;i++){
+         $("#sublink"+i).mouseover(function(){
+            var id=this.id.substr(7);
+            $("#mouseon_show"+id).css({"opacity":"0.8","bottom":"0px"});
+          });
+        $("#sublink"+i).mouseleave(function(){
+            var id=this.id.substr(7);
+            $("#mouseon_show"+id).css({"opacity":"0","bottom":"-60px"});
+        });
+    }
+
+     $("#sublink3").click(function(){
+      window.open("http://csmanage.sinaapp.com/csmanage/");
+    });
+
+  });
+
+
+ 
+
+ </script>
+
+</head>
+<body>
+  <div class="header">计算机学院服务平台链接</div>
+
+  <div class="main">
+    <div class="top_link">
+      <div id="sublink1">
+        <div class="sub_title"><i class="icon-leaf icon-large"></i> 学生离校系统</div>
+        <div id="mouseon_show1">计算机学生离校系统是针对于计算机学院研究生毕业办理相关离校手续的平台，由导师登录确认</div>
+      </div>
+      <div id="sublink2">
+        <div class="sub_title"><i class="icon-list icon-large"></i> 学生成绩管理系统</div>
+        <div id="mouseon_show2">学生成绩管理系统是用于辅导员管理计算机学院所有学生的成绩信息的平台，这里提供下载链接</div>
+      </div>
+    </div>
+    
+    <div class="bottom_link">
+      <div id="sublink3">
+        <div class="sub_title3"><i class="icon-user icon-large"></i> 学生基本信息平台</div>
+        <div id="mouseon_show3">学生基本信息平台是用于辅导员管理计算机学院所有学生的个人基本信息的平台，辅导员可进行学生信息的添加，修改，查询等操作，并且设有超级管理员，可管理辅导员的相关信息</div>
+      </div>
+    </div>
+
+    <div class="blank"></div>
+  </div>
+
+  <div class="copyright">©版权所有 2013-2014 北京理工大学计算机学院</div>
+</body>
+</html>

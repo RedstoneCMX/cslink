@@ -1,0 +1,133 @@
+@CHARSET "UTF-8";
+body{
+	margin: 0;
+	padding: 0;
+}
+.header{
+	height: 50px;
+	width: 350px;
+	margin: auto;
+	margin-top: 50px;
+	font-size: 30px;
+	font-family: 微软雅黑;
+}
+
+.main{
+	height: 400px;
+	width: 600px;
+	margin: auto;
+	margin-top: 50px;
+}
+#sublink1{
+	height: 150px;
+	width: 280px;
+	background: #dd902a;
+	float: left;
+	cursor: pointer;
+	-webkit-transition:background 1s;
+	-ms-transition:background 1s;
+	-o-transition:background 1s;
+	-moz-transition:background 1s;
+}
+
+#sublink1:hover{
+	background: #FFCC33;
+}
+
+.sub_title{
+	font-family: 微软雅黑;
+	font-size: 20px;
+	text-align: center;
+	margin-top: 63px;
+}
+
+.sub_title3{
+	font-family: 微软雅黑;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 63px;
+}
+#sublink2{
+	height: 150px;
+	width: 280px;
+	background: #d1533f;
+	margin-left: 10px;
+	float: left;
+	cursor: pointer;
+	-webkit-transition:background 1s;
+	-ms-transition:background 1s;
+	-o-transition:background 1s;
+	-moz-transition:background 1s;
+}
+
+#sublink2:hover{
+	background: #FF3333;
+}
+.top_link{
+	height: 150px;
+	position: relative;
+}
+.bottom_link{
+	position: absolute;
+	height: 160px;
+	width: 570px;
+	z-index: 2;
+	background: #FFFFFF;
+}
+#sublink3{
+	height: 150px;
+	width: 570px;
+	background: #47a447;
+	cursor: pointer;
+	margin-top: 10px;
+	-webkit-transition:background 1s;
+	-ms-transition:background 1s;
+	-o-transition:background 1s;
+	-moz-transition:background 1s;
+}
+#sublink3:hover{
+	background: #33FF66;
+}
+#mouseon_show1,#mouseon_show2{
+	position: absolute;
+	background: #000000;
+	opacity: 0;
+	width: 280px;
+	color: #FFFFFF;
+	font-family: 微软雅黑;
+	font-size: 15px;
+	bottom: -60px;
+	-webkit-transition:opacity 1s, bottom 0.5s;
+	-ms-transition:opacity 1s, bottom 0.5s;
+	-o-transition:opacity 1s, bottom 0.5s;
+	-moz-transition:opacity 1s, bottom 0.5s;
+}
+#mouseon_show3{
+	position: absolute;
+	background: #000000;
+	opacity: 0;
+	width: 570px;
+	color: #FFFFFF;
+	font-family: 微软雅黑;
+	font-size: 15px;
+	bottom: -60px;
+	-webkit-transition:opacity 1s, bottom 0.5s;
+	-ms-transition:opacity 1s, bottom 0.5s;
+	-o-transition:opacity 1s, bottom 0.5s;
+	-moz-transition:opacity 1s, bottom 0.5s;
+}
+
+.blank{
+	position: absolute;
+	background: #FFFFFF;
+	height: 80px;
+	width: 570px;
+	margin-top: 160px;
+	z-index: 3;
+}
+.copyright{
+	width:350px;
+	font-size:15px;
+	margin:auto;
+	font-family:微软雅黑;
+}
