@@ -6,3 +6,6 @@
 ![页面截图](https://github.com/RedstoneCMX/cslink/blob/master/images/show2.png) 
 ![页面截图](https://github.com/RedstoneCMX/cslink/blob/master/images/show3.png) 
 ![页面截图](https://github.com/RedstoneCMX/cslink/blob/master/images/show4.png) 
+
+##页面展示链接
+<a href='http://bitcslink.sinaapp.com/cslink/' targe='_blank'>http://bitcslink.sinaapp.com/cslink/</a>
